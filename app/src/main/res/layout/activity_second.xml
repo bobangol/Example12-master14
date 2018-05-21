@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnStartThirdActivityClicked"
-        android:text="Start Third Activity" />
+        android:text="@string/start_third_activity" />
 
     <!-- Declares a button that opens a browser -->
     <Button
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnStartCamera"
-        android:text="Start Camera" />
+        android:text="@string/start_camera" />
 
 
 </LinearLayout>

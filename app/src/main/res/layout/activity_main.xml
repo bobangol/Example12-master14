@@ -8,7 +8,7 @@
         android:id="@+id/btn_start_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Activity"
+        android:text="@string/start_activity"
         android:onClick="btnStartActivityClicked" />
 
     <!-- Declares a button that opens a browser -->
@@ -16,7 +16,7 @@
         android:id="@+id/btn_select_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Contact"
+        android:text="@string/select_contact"
         android:onClick="btnSelectContactClicked" />
     
 </LinearLayout>
